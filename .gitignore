@@ -125,4 +125,4 @@ venv.bak/
 dmypy.json
 
 # pyinstaller
-output
+output/
