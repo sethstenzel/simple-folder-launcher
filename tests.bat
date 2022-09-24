@@ -1,1 +1,1 @@
-python -m pytest -v -cov
+python -m pytest -v --cov
