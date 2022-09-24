@@ -7,7 +7,7 @@ The end goal is to be able to pin the exe to the Windows taskbar, as Windows doe
 Modify `simple_folder_launcher.py` modify the directory at the end of the file before the main() call.
 Then build the app with pyinstaller using autopytoexe command in the terminal.
 
-1. > autopytoexe
+1. \> autopytoexe
 2. Select the `simple_folder_launcher.py` file.
 3. Set as single file build.
 4. Choose/set the icon file.
@@ -15,3 +15,6 @@ Then build the app with pyinstaller using autopytoexe command in the terminal.
 6. Build with `Convert .PY to .EXE`
 7. Once build place the exe wherever you choose.
 8. Right-click and choose pin to taskbar.
+
+## Notes
+If you are ok with not having a single exe and having a companion folder, then you can choose the directory option instead of single file. This will speed up execution if the slight delay bothers you. With a single file, there is a second delay while the file is unpacked to a temporary directory.
