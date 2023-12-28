@@ -18,3 +18,14 @@ Then build the app with pyinstaller using autopytoexe command in the terminal.
 
 ## Notes
 If you are ok with not having a single exe and having a companion folder, then you can choose the directory option instead of single file. This will speed up execution if the slight delay bothers you. With a single file, there is a second delay while the file is unpacked to a temporary directory.
+
+## Changelog
+### v2
+Several quality of life improvements.
+- build script added to assist in building new executables
+- change utility to now store folder location in registry
+- added cli option to update the registry path or to remove from registry
+- added an option to load folder path from an ini file in the same directory as the executable
+- these options are part of the build script
+### v1
+Utility release on **GitHub**
