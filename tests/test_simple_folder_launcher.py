@@ -1,4 +1,3 @@
-from tabnanny import check
 from simple_folder_launcher import check_path_exists
 
 
