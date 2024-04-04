@@ -1,6 +1,18 @@
 from pathlib import Path
 import os
-import subprocess
+import sys
+
+
+def get_users_document_folder():
+    try:
+        user_profile = os.environ["USERPROFILE"]
+    except KeyError:
+        raise
+
+    users_document_folder = os.path.join(user_profile, "Documents")
+    if check_path_exists(users_document_folder):
+        return users_document_folder
+    return None
 
 
 def check_path_exists(directory):
@@ -13,10 +25,15 @@ def launch_directory(directory):
 
 
 def main(directory):
+    if 2 <= len(sys.argv) and "-p" in sys.argv[1]:
+        pass
+    elif 2 == len(sys.argv) and "-h" in sys.argv[1]:
+        pass
+    elif 2 <= len(sys.argv):
+        print(f"Error - Invalid command switch: {sys.argv[1]}")
     if check_path_exists(directory):
         launch_directory(directory)
 
 
 if __name__ == "__main__":
-    directory = r"C:\Users\s3711\Documents\Repositories"
-    main(directory)
+    main()
