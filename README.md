@@ -14,8 +14,8 @@ The end goal is to be able to pin an exe to the Windows taskbar which will luanc
 8. Place the launcher somewhere on your system, and then drag it to the taskbar.
 
 ## Caveats
-This was made with tkinter which is fine, but it is not threaded so the UI will lock up while things are building etc.
-If someone feels ambitious they could put in a pull request to fix this. Tests would be welcome as well. Both are low priority for me.
+- This was made with tkinter which is fine, but it is not threaded so the UI will lock up while things are building etc. If someone feels ambitious they could put in a pull request to fix this. Tests would be welcome as well. Both are low priority for me.
+- Sometimes Windows Defender will flag a PyInstaller Executable the first time it is run. You'll probably need to allow it to run the first time. However I have seen Windows also ignore them completely and run them fine, I don't really understand why.
 
 # Attributions
 [Application Icon](https://www.flaticon.com/free-icon/folder_3039367?term=folder&page=1&position=94&origin=tag&related_id=3039367)
