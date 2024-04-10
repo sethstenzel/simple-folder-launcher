@@ -1,6 +1,5 @@
 from pathlib import Path
 import os
-import subprocess
 
 
 def check_path_exists(directory):
@@ -18,5 +17,5 @@ def main(directory):
 
 
 if __name__ == "__main__":
-    directory = r"C:\Users\s3711\Documents\Repositories"
+    directory = r"%%%PATH_STRING%%%"
     main(directory)
