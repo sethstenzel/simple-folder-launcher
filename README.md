@@ -15,3 +15,6 @@ This was built with Python version 3.10.4, pyinstaller and some other packages a
 6. Enter your launcher folder path and your launcher icon path (or leave it blank for the default icon).
 7. Press build, and your launcher should be built which will launch your desired folder.
 8. Place the launcher somewhere on your system, and then drag it to the taskbar.
+
+# Atrributions
+[app icon](https://www.flaticon.com/free-icon/folder_3039367?term=folder&page=1&position=94&origin=tag&related_id=3039367)
