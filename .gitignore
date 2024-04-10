@@ -1,3 +1,7 @@
+# Pyinstaller build files
+dist/
+test.spec
+
 # Editors
 .vscode/
 .idea/
