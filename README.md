@@ -13,7 +13,7 @@ The end goal is to be able to pin an exe to the Windows taskbar which will luanc
 7. Press build, and your launcher should be built which will launch your desired folder.
 8. Place the launcher somewhere on your system, and then drag it to the taskbar.
 
-# Caveats
+## Caveats
 This was made with tkinter which is fine, but it is not threaded so the UI will lock up while things are building etc.
 If someone feels ambitious they could put in a pull request to fix this. Tests would be welcome as well. Both are low priority for me.
 
